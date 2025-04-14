@@ -10,7 +10,7 @@ This project presents a comprehensive Power BI dashboard designed to provide act
 
 ## Dashboard Highlights & Key Features
 
-![Dashboard Screenshot](link_to_your_dashboard_image.png) 
+![Dashboard Screenshot](https://github.com/vincenzomaltese/Global-Sales-Logistics-Performance-Dashboard/blob/main/images/logistic_project.png) 
 
 The interactive dashboard provides a multi-faceted view of business operations:
 
@@ -50,12 +50,11 @@ The foundation of this report is a well-structured data model optimized for perf
 
 *   **Supporting Tables:**
     *   `All Measures`: A dedicated table (best practice) to house all DAX measures, promoting organization and maintainability.
-    *   `Parameter`: Likely utilized for enhancing report interactivity, potentially through Field Parameters (allowing dynamic axis/value selection) or What-if scenarios.
+    *   `Parameter`: Utilized for enhancing report interactivity, allowing dynamic axis/value selection.
 
 *   **Relationships:** One-to-many relationships are established from dimension tables to the fact table, ensuring data integrity and efficient filtering propagation.
 
-![Data Model Schema](link_to_your_data_model_image.png) // **Nota:** Dovrai caricare l'immagine del modello dati su GitHub e sostituire `link_to_your_data_model_image.png` con il link effettivo.
-
+![Data Model Schema](https://github.com/vincenzomaltese/Global-Sales-Logistics-Performance-Dashboard/blob/main/images/model_view1.png) 
 ---
 
 ## Key Measures & Calculations (DAX)
@@ -66,7 +65,6 @@ The insights presented in the dashboard are driven by powerful Data Analysis Exp
 *   **Status-Based Calculations:** Using `CALCULATE` to filter shipment counts and percentages based on their status (Active, Completed, Returned).
     *   *Example Concept:* `% Active Shipments = DIVIDE( [Active Shipments Count], [Total Shipments Count] )`
 *   **Average Calculation:** `AVERAGE` for determining the Average Delivery Time.
-*   **Time Intelligence:** DAX time intelligence functions are leveraged for generating monthly and yearly trends (e.g., `TOTALMTD`, `SAMEPERIODLASTYEAR`, although specific functions depend on the exact trend comparison needs).
 *   **Conditional Logic:** Measures likely use `IF` or `SWITCH` functions to categorize Average Delivery Time into performance bands (`Perfect`, `Fine`, `Too Long`) for conditional formatting.
 
 ---
@@ -74,7 +72,7 @@ The insights presented in the dashboard are driven by powerful Data Analysis Exp
 ## How to View & Interact with the Report
 
 1.  **Prerequisites:** Ensure you have Microsoft Power BI Desktop installed.
-2.  **Open the Report:** Download and open the `.pbix` file (`YourProjectFileName.pbix`). // **Nota:** Sostituisci `YourProjectFileName.pbix` con il nome effettivo del tuo file.
+2.  **Open the Report:** Download and open the `.pbix` file (`logistic_project.pbix`).
 3.  **Interact:** Utilize the slicers on the left pane to filter the data. Click on elements within visuals (bars, slices, table rows) to cross-filter the report. Toggle between 'Month' and 'Year' views on the Shipments chart. Hover over data points for tooltips containing specific values.
 
 ---

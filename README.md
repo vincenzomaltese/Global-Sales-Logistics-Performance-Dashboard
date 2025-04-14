@@ -73,23 +73,8 @@ The insights presented in the dashboard are driven by powerful Data Analysis Exp
 
 ## How to View & Interact with the Report
 
-You have two options to explore this report:
-
-1.  **PDF Version (Static View):**
-    *   **Ideal for:** A quick overview or if you don't have Power BI Desktop installed.
-    *   **How:** Download and open the `[YourProjectFileName]_Report.pdf` file included in this repository. // **Nota:** Assicurati di nominare e caricare il file PDF e aggiornare questo nome.
-    *   **Limitation:** This provides a static snapshot of the main dashboard page and does not support interactivity (filtering, drill-down, etc.).
-
-2.  **Power BI Desktop File (Full Interactive Experience):**
-    *   **Ideal for:** Exploring the data dynamically, using filters, and experiencing the full capabilities of the report.
-    *   **Prerequisites:** Microsoft Power BI Desktop must be installed (available for free from Microsoft).
-    *   **How:**
-        *   Download the `.pbix` file (`YourProjectFileName.pbix`) from this repository. // **Nota:** Aggiorna con il nome del tuo file .pbix.
-        *   Open the file using Power BI Desktop.
-    *   **Interaction:** Once opened, you can:
-        *   Use the slicers (Date, Category, Country) on the left pane.
-        *   Click on elements within visuals (bars, donut slices, table rows, map locations) to cross-filter the entire report page.
-        *   Toggle between 'Month' and 'Year' views on the Shipments chart.
-        *   Hover over data points to view detailed tooltips.
+1.  **Prerequisites:** Ensure you have Microsoft Power BI Desktop installed.
+2.  **Open the Report:** Download and open the `.pbix` file (`YourProjectFileName.pbix`). // **Nota:** Sostituisci `YourProjectFileName.pbix` con il nome effettivo del tuo file.
+3.  **Interact:** Utilize the slicers on the left pane to filter the data. Click on elements within visuals (bars, slices, table rows) to cross-filter the report. Toggle between 'Month' and 'Year' views on the Shipments chart. Hover over data points for tooltips containing specific values.
 
 ---

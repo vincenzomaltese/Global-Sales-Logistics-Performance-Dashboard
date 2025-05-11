@@ -75,4 +75,3 @@ The insights presented in the dashboard are driven by powerful Data Analysis Exp
 2.  **Open the Report:** Download and open the `.pbix` file (`logistic_project.pbix`).
 3.  **Interact:** Utilize the slicers on the left pane to filter the data. Click on elements within visuals (bars, slices, table rows) to cross-filter the report. Toggle between 'Month' and 'Year' views on the Shipments chart. Hover over data points for tooltips containing specific values.
 
----
